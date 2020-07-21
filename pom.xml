@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>sean.yu</groupId>
+    <artifactId>jnote</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>data-type-and-extentions</module>
+        <module>gui-study</module>
+        <module>network-programming-study</module>
+        <module>multi-thread-study</module>
+        <module>annotation-and-reflection-study</module>
+        <module>java8-practice</module>
+    </modules>
+</project>
