@@ -31,7 +31,7 @@ Temporary Items
 ### Example user template
 
 # IntelliJ project files
-multi-thread-study/.idea
+*.idea
 *.iml
 out
 gen
