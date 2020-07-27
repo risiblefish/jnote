@@ -1,4 +1,4 @@
-package testclass;
+package reflection.testclass;
 
 /**
  * 测试类什么时候会被加载

@@ -1,4 +1,4 @@
-package testclass;
+package reflection.testclass;
 
 /**
  * @author Sean Yu

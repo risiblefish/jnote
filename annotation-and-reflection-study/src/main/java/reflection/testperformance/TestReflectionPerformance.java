@@ -1,4 +1,4 @@
-package testperformance;
+package reflection.testperformance;
 
 import org.springframework.util.StopWatch;
 import testclass.MyClass;

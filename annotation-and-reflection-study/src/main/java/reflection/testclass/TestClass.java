@@ -1,4 +1,4 @@
-package testclass;
+package reflection.testclass;
 
 import java.util.Arrays;
 
