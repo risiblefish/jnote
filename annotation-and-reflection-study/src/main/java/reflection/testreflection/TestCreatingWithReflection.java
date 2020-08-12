@@ -1,6 +1,7 @@
 package reflection.testreflection;
 
-import testclass.MyClass;
+
+import reflection.testclass.MyClass;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
