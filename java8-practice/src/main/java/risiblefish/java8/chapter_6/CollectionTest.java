@@ -1,9 +1,9 @@
 package risiblefish.java8.chapter_6;
 
-import risiblefish.java8.chapter_5.sub_5_5.Transaction;
-
-import java.util.*;
-import java.util.stream.Collector;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 /**

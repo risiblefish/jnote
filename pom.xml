@@ -16,6 +16,7 @@
         <module>multi-thread-study</module>
         <module>annotation-and-reflection-study</module>
         <module>java8-practice</module>
+        <module>io</module>
     </modules>
 
     <dependencies>
