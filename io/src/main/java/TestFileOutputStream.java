@@ -13,8 +13,12 @@ public class TestFileOutputStream {
         try {
             File file = new ClassPathResource("text/test.txt").getFile();
             in = new FileInputStream(file);
-            String outPutFilePath = new ClassPathResource("").getPath() + File.separator + "copy.txt";
-            out = new FileOutputStream(new File(outPutFilePath));
+            File outPutFileDir = new ClassPathResource("text").getFile();
+//            if(!outPutFileDir.exists()) {
+//                outPutFileDir.mkdir();
+//            }
+            File copy = new File(outPutFileDir + "/copy.txt");
+            out = new FileOutputStream(copy);
             while ((b = in.read()) != -1) {
                 out.write(b);
             }
