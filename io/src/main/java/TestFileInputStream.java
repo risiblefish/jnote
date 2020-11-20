@@ -2,14 +2,9 @@ import org.springframework.core.io.ClassPathResource;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /**
- *
- * 用这个版本，可以看到，中文读出来是乱码
- * 原因是因为read()方法是1个字节1个字节的读取，而每个中文字符占2个字节
- *
  * @author Sean Yu
  */
 public class TestFileInputStream {
