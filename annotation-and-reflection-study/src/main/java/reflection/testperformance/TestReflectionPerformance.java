@@ -1,7 +1,7 @@
 package reflection.testperformance;
 
 import org.springframework.util.StopWatch;
-import testclass.MyClass;
+import reflection.testclass.MyClass;
 
 import java.lang.reflect.Method;
 
