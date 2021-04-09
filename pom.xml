@@ -17,6 +17,7 @@
         <module>annotation-and-reflection-study</module>
         <module>java8-practice</module>
         <module>io</module>
+        <module>idle</module>
     </modules>
 
     <dependencies>
