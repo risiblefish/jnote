@@ -1,4 +1,4 @@
-package msb_juc;
+package msb_juc.c_000;
 
 import java.text.DecimalFormat;
 import java.util.Random;
@@ -8,7 +8,7 @@ import java.util.concurrent.CountDownLatch;
  * @author Sean Yu
  * @date 2021/7/1 6:58
  */
-public class T01_MultiVsSingle_ContextSwitch {
+public class T00_MultiVsSingle_ContextSwitch {
     private static double[] nums = new double[100_000_000];
     private static Random r = new Random();
     private static DecimalFormat df = new DecimalFormat("0.00");
@@ -75,8 +75,8 @@ public class T01_MultiVsSingle_ContextSwitch {
                 for (int j = m * segmentCount; j < (m + 1) * segmentCount && j < nums.length; j++) {
                     res[m] += nums[j];
                 }
+                latch.countDown();
             });
-            latch.countDown();
         }
 
         double sum = 0.0;

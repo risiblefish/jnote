@@ -1,4 +1,4 @@
-package msb_juc;
+package msb_juc.c_000;
 
 import java.util.concurrent.*;
 
